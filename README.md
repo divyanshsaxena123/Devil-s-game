@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="V0MVFI0UFnD-8nBcXGX0Hy82_jvOJG6VjQumTIo_ggE" />
 <img id="mascot-image" src="images/gamer-mode.png" alt="Buff Mascot" onclick="talkMascot()">let mascotSounds = [
     "audio/flex-brain.mp3", // Replace with real files
     "audio/power-up.mp3",
