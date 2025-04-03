@@ -13,3 +13,4 @@ function talkMascot() {
 function playClickSound() {
     buttonClickSound.play();
 }<button id="music-btn" onclick="toggleMusic()">🔊 Mute Music</button>
+
