@@ -14,3 +14,56 @@ function playClickSound() {
     buttonClickSound.play();
 }<button id="music-btn" onclick="toggleMusic()">🔊 Mute Music</button>
 
+https://github.com/divyanshsaxena123/Devil-s-game.gitlet gamerImages = [
+    "images/gamer1.png",
+    "images/gamer2.png",
+    "images/gamer3.png",
+    "images/gamer4.png"
+];
+
+let currentIndex = 0;
+
+function changeCostume() {
+    currentIndex = (currentIndex + 1) % gamerImages.length;
+    document.getElementById("gamerImage").src = gamerImages[currentIndex];
+}body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.gamer-container {
+    margin-top: 50px;
+}
+
+.gamer-img {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #ffcc00<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Mode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎮 Gamer Mode Activated! 🚀</h1>
+    </header>
+    
